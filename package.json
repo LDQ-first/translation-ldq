@@ -1,6 +1,6 @@
 {
   "name": "translation-ldq",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "a translation tool",
   "main": "./bin/translation-ldq-translate.js",
   "bin": {
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "translation",
+    "translate",
     "fanyi",
     "翻译",
     "tool"
