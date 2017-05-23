@@ -1,8 +1,8 @@
 {
   "name": "translation-ldq",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "a translation tool",
-  "main": "./bin/translate.js",
+  "main": "./bin/translation-ldq-translate.js",
   "bin": {
     "translate": "./bin/translation-ldq-translate.js",
     "translation-ldq": "./bin/translation-ldq.js",
@@ -25,5 +25,9 @@
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "yargs": "^8.0.1"
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/LDQ-first/translation-ldq"
+    }
 }
