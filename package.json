@@ -1,0 +1,29 @@
+{
+  "name": "translation-ldq",
+  "version": "1.5.2",
+  "description": "a translation tool",
+  "main": "./bin/translate.js",
+  "bin": {
+    "translate": "./bin/translation-ldq-translate.js",
+    "translation-ldq": "./bin/translation-ldq.js",
+    "tlq": "./bin/translation-ldq.js"
+  },
+  "scripts": {
+    "translate": "node ./bin/translation-ldq-translate.js",
+    "translation-ldq": "node ./bin/translation-ldq.js",
+    "tlq": "node ./bin/translation-ldq.js"
+  },
+  "keywords": [
+    "translation",
+    "fanyi",
+    "翻译",
+    "tool"
+  ],
+  "author": "ldq-first",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "yargs": "^8.0.1"
+  }
+}
